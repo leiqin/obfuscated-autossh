@@ -104,7 +104,7 @@ const char *rcsid = "$Id: autossh.c,v 1.82 2011/10/12 20:29:22 harding Exp $";
 
 #define NO_RD_SOCK	-2	/* magic flag for echo: no read socket */
 
-#define	OPTION_STRING "M:V1246ab:c:e:fgi:kl:m:no:p:qstvw:xyACD:F:I:MKL:NO:PR:S:TVXY"
+#define	OPTION_STRING "M:V1246ab:c:e:fgi:kl:m:no:p:qstvw:xyACD:F:I:MKL:NO:PR:S:TVXYzZ:"
 
 int	logtype  = L_SYSLOG;	/* default log to syslog */
 int	loglevel = LOG_INFO;	/* default loglevel */

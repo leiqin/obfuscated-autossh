@@ -212,3 +212,12 @@ usually done in /etc/syslog.conf.
 
 -- 
 Kudos and raspberries to harding [at] motd.ca
+
+
+============================================================
+in debian/squeeze to compile brl/obfuscated-openssh you neet
+
+apt-get install gcc
+apt-get install zlib1g-dev
+apt-get install libssl-dev
+
